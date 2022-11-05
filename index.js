@@ -19,7 +19,7 @@ fetch(file)
     let temp= Math.round(data.main.temp-273);
     let pressure=data.main.pressure;
     let humidity= data.main.humidity;
-    let visibility= data.visibility;
+    let visibility= data.visibility/10000;
     let windspeed= data.wind.speed;
     let name=city;
     let feel=Math.round(data.main.feels_like-273);
