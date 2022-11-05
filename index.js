@@ -5,7 +5,7 @@ let button=document.getElementById('btn');
 
 function getData(city){
 
-let query_url=`http://api.openweathermap.org/data/2.5/weather?q=${city}&`;
+let query_url=`https://api.openweathermap.org/data/2.5/weather?q=${city}&`;
 // let options="mode=json&";
 let api_Key="APPID=2f7529c85002a2337c445b15af3076c0";
 
